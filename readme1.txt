@@ -2,6 +2,7 @@ https://github.com/nanuchi/my-project
 
 docker
 git clone https://github.com/docker/getting-started-app.git
+docker login -u <username>
 
 Dockerfile
 FROM node:lts-alpine
