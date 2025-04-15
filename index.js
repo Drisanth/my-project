@@ -8,6 +8,7 @@ app.use(express.json());
 // Routes
 app.get('/', (req, res) => {
   res.send('Hello World from Node.js!');
+  res.send('Github Actions');
 });
 
 app.get('/about', (req, res) => {
